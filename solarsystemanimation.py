@@ -19,7 +19,7 @@ from matplotlib.animation import FuncAnimation
             self.patch.append(self.bodies[i].name) 
     
     
-    def animate(self, i): #animatinf the patches as a circle with the specified centers
+    def animate(self, i): #animating the patches as a circle with the specified centers
         for j in range (0,len(self.patch)): 
             self.patch[j].center = (self.pos[i][0], self.pos[i][1])
             
